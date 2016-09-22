@@ -1,8 +1,8 @@
 <templateSet group="GridonicPHP">
-    <template name="dprintr" value="echo '&lt;pre&gt;';&#10;print_r($var$);&#10;echo '&lt;pre&gt;';&#10;&#10;" description="Debug `print_r` statement" toReformat="false" toShortenFQNames="true">
-        <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
-        <context>
-            <option name="PHP" value="true" />
-        </context>
-    </template>
+  <template name="dprintr" value="echo '&lt;pre&gt;';&#10;print_r($var$);&#10;echo '&lt;pre&gt;';&#10;&#10;" description="Debug `print_r` statement" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>

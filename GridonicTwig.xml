@@ -1,7 +1,7 @@
 <templateSet group="GridonicTwig">
-    <template name="trans" value="{{ '$END$'|trans }}" description="Twig `trans` shortcut" toReformat="false" toShortenFQNames="true">
-        <context>
-            <option name="Twig" value="true" />
-        </context>
-    </template>
+  <template name="trans" value="{{ '$END$'|trans }}" description="Twig `trans` shortcut" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>

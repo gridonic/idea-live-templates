@@ -1,8 +1,8 @@
 <templateSet group="GridonicJS">
-    <template name="log" value="console.log($VAR$);&#10;" description="`console.log` statement in js" toReformat="false" toShortenFQNames="true">
-        <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-        <context>
-            <option name="JAVA_SCRIPT" value="true" />
-        </context>
-    </template>
+  <template name="log" value="console.log($VAR$);&#10;" description="`console.log` statement in js" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
