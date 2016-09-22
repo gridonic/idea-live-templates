@@ -7,9 +7,10 @@ by https://github.com/keyboardsurfer/idea-live-templates. Kudos go to the reposi
 
 # Installation
 
-- Find the [live templates location](https://www.jetbrains.com/help/idea/2016.2/live-templates.html) for your IntelliJ IDE version.
-- `cd` into that location, run `git clone https://github.com/gridonic/idea-live-templates.git gridonic` and restart your IDE.
-- Profit!
+- Find the [live templates location](https://www.jetbrains.com/help/idea/2016.2/live-templates.html) for your IntelliJ IDE version
+- `cd` into that location, run `git clone https://github.com/gridonic/idea-live-templates.git gridonic`
+- Copy all `.xml` files from the cloned repository into the `templates` folder `cp gridonic/*.xml .`
+- Restart your IDE
 
 ### GridonicCSS.xml
 - __`/****`__: "CSS sub-section comment block"
