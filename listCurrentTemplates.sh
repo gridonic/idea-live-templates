@@ -19,8 +19,8 @@ for file in `ls -1 *.xml`; do
   echo "### $file"
   cat ${file} | \
     grep "template name" | \
-    sed s/"^.*<template name=\""/"- \*\*\`"/ | \
+    sed s/"^.*<template name=\""/"- __\`"/ | \
     sed s/" toReformat.*$"// | \
-    sed s/"\".*description="/"\`\*\*: "/ | \
+    sed s/"\".*description="/"\`__: "/ | \
     sort
 done

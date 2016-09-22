@@ -12,11 +12,11 @@ by https://github.com/keyboardsurfer/idea-live-templates. Kudos go to the reposi
 - Profit!
 
 ### gridonic.xml
-- **`/****`**: "CSS sub-section comment block"
-- **`/***`**: "CSS section comment block"
-- **`/**`**: "CSS multi line comment"
-- **`/*`**: "CSS single line comment"
-- **`///`**: "sassdoc method comment block"
-- **`dprintr`**: "Debug print statement"
-- **`log`**: "Console log statement in js"
-- **`trans`**: "twig translate"
+- __`/****`__: "CSS sub-section comment block"
+- __`/***`__: "CSS section comment block"
+- __`/**`__: "CSS multi line comment"
+- __`/*`__: "CSS single line comment"
+- __`///`__: "sassdoc method comment block"
+- __`dprintr`__: "Debug print statement"
+- __`log`__: "Console log statement in js"
+- __`trans`__: "twig translate"
