@@ -14,6 +14,9 @@
 # limitations under the License.
 # ==============================================================================
 
+# Changes to the original code:
+#
+# -  Listing all `*.xml` files as opposed to only those prefixed with `Android`
 for file in `ls -1 *.xml`; do
   echo
   echo "### $file"
