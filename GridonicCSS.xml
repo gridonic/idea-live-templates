@@ -1,4 +1,4 @@
-<templateSet group="user">
+<templateSet group="Gridonic">
     <template name="/***" value="/*!-----------------------------------------------------------------------------&#10;   Master Stylesheet.&#10;&#10;   Project:       Project name&#10;   Contributors:  Your Name&lt;your@email.com&gt;&#10;   -------------------------------------------------------------------------- */" description="CSS section comment block" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="CSS" value="true" />
@@ -8,12 +8,6 @@
         <variable name="COMMENT" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="CSS" value="true" />
-        </context>
-    </template>
-    <template name="dprintr" value="echo '&lt;pre&gt;';&#10;print_r($var$);&#10;echo '&lt;pre&gt;';&#10;&#10;" description="Debug print statement" toReformat="false" toShortenFQNames="true">
-        <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
-        <context>
-            <option name="PHP" value="true" />
         </context>
     </template>
     <template name="/**" value="/**&#10; * $COMMENT$&#10; */" description="CSS multi line comment" toReformat="true" toShortenFQNames="true">
@@ -28,20 +22,9 @@
             <option name="CSS" value="true" />
         </context>
     </template>
-    <template name="log" value="console.log($VAR$);&#10;" description="Console log statement in js" toReformat="false" toShortenFQNames="true">
-        <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-        <context>
-            <option name="JAVA_SCRIPT" value="true" />
-        </context>
-    </template>
     <template name="///" value="/// Description&#10;///&#10;/// @author Author's name&#10;/// @link http://some.url Optional caption&#10;///&#10;/// @example&#10;///   4 + 2 = 8&#10;///   4 / 2 = 2&#10;///&#10;/// @param {type} $name [default value] - description&#10;/// @return {type} description" description="sassdoc method comment block" toReformat="true" toShortenFQNames="true">
         <context>
             <option name="CSS" value="true" />
-        </context>
-    </template>
-    <template name="trans" value="{{ '$END$'|trans }}" description="twig translate" toReformat="false" toShortenFQNames="true">
-        <context>
-            <option name="Twig" value="true" />
         </context>
     </template>
 </templateSet>

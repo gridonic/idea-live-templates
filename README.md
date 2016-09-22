@@ -11,12 +11,18 @@ by https://github.com/keyboardsurfer/idea-live-templates. Kudos go to the reposi
 - `cd` into that location, run `git clone https://github.com/gridonic/idea-live-templates.git gridonic` and restart your IDE.
 - Profit!
 
-### gridonic.xml
+### GridonicCSS.xml
 - __`/****`__: "CSS sub-section comment block"
 - __`/***`__: "CSS section comment block"
 - __`/**`__: "CSS multi line comment"
 - __`/*`__: "CSS single line comment"
 - __`///`__: "sassdoc method comment block"
-- __`dprintr`__: "Debug print statement"
-- __`log`__: "Console log statement in js"
-- __`trans`__: "twig translate"
+
+### GridonicJS.xml
+- __`log`__: "`console.log` statement in js"
+
+### GridonicPHP.xml
+- __`dprintr`__: "Debug `print_r` statement"
+
+### GridonicTwig.xml
+- __`trans`__: "Twig `trans` shortcut"
