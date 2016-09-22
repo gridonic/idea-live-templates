@@ -7,7 +7,7 @@ by https://github.com/keyboardsurfer/idea-live-templates. Kudos go to the reposi
 
 # Installation
 
-- Find the [has you covered](https://www.jetbrains.com/help/idea/2016.2/live-templates.html) for your IntelliJ IDE version.
+- Find the [live templates location](https://www.jetbrains.com/help/idea/2016.2/live-templates.html) for your IntelliJ IDE version.
 - `cd` into that location, run `git clone https://github.com/gridonic/idea-live-templates.git gridonic` and restart your IDE.
 - Profit!
 
