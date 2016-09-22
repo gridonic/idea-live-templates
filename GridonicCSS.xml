@@ -1,4 +1,4 @@
-<templateSet group="Gridonic">
+<templateSet group="GridonicCSS">
     <template name="/***" value="/*!-----------------------------------------------------------------------------&#10;   Master Stylesheet.&#10;&#10;   Project:       Project name&#10;   Contributors:  Your Name&lt;your@email.com&gt;&#10;   -------------------------------------------------------------------------- */" description="CSS section comment block" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="CSS" value="true" />

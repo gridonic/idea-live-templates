@@ -1,4 +1,4 @@
-<templateSet group="Gridonic">
+<templateSet group="GridonicJS">
     <template name="log" value="console.log($VAR$);&#10;" description="`console.log` statement in js" toReformat="false" toShortenFQNames="true">
         <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
