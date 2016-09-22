@@ -15,7 +15,7 @@ by https://github.com/keyboardsurfer/idea-live-templates. Kudos go to the reposi
 ## Update
 
 - `cd` into your [live templates location](https://www.jetbrains.com/help/idea/2016.2/live-templates.html)
-- Run `cd gridonic; git pull; cp *.xml ../`
+- Run `cd gridonic; git pull; cp *.xml ../; cd ..`
 - Restart your IDE
 
 ## Included live templates
